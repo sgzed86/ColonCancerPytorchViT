@@ -15,7 +15,7 @@ Used automatic mixed precision training which cut the epoch time in half. Added 
 I am using a laptop with NVIDIA RTX 3050. It is running the model but I might be able to get it down to 1 hour per epoch which is still way too long. I should have bought the Jetson...
 This is a rather ambitous project for this laptop.
 
-I ran just 1 epopch to test it out, took about 50 minutes. Even on 1 epoch the model does not seem too bad.
+I ran just 1 epoch to test it out, took about 50 minutes. Even on 1 epoch the model does not seem too bad.
 
 + Lesion Accuracy:   0.8009
 + Polyp Accuracy:    0.9744
