@@ -1,4 +1,4 @@
-# ColonCancerPytorchViT
+# Lesion Detection, Polyp Characterization and fibrosis grading ViT
 implements a Vision Transformer model for your COAD dataset using Pytorch ViT
 
 This model uses a video transformer and Hugging Face transformers and timm library
