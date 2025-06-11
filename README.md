@@ -7,6 +7,4 @@ The goal of this model will be to build a vision transformer for lesion detectio
 
 First, a lot of work went into the data loader to get the data into python.  
 
-
-
-
+I ended up going the timm hugging face route.
