@@ -10,3 +10,9 @@ First, a lot of work went into the data loader to get the data into python.
 I ended up going the timm hugging face route.
 
 It took 4 hours to run 1 epoch so, I need to look at how to optimize running this code.
+
+Used automatic mixed precision training which cut the epoch time in half. Added gradient accumulation increase batch size without increasing memory and used persistent workers and pin memory for faster CPU to GPU
+I am using a laptop with NVIDIA RTX 3050. It is running the model but I might be able to get it down to 1 hour per epoch which is still way too long. I should have bought the Jetson...
+This is a rather ambitous project for this laptop.
+
+
